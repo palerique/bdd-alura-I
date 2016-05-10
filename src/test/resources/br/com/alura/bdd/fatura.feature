@@ -1,6 +1,6 @@
 Feature: Fatura
 
-  Scenario: Comprar um curso
-    Given o preço do curso de "BDD" seja R$ 100
-    When Eu comprar 1 curso de "BDD"
-    Then o total da minha fatura deve ser de R$ 100
+  Scenario: Efetuando uma compra
+    Given que tenho um limite de R$ 100
+    When fizer uma compra de R$ 50
+    Then o total da minha fatura deve ser de R$ 50
