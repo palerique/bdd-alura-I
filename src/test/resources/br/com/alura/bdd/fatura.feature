@@ -1,6 +1,10 @@
-Feature: Fatura
+# language: pt
+Funcionalidade: Fatura
+  Para controlar os gastos
+  Como cliente
+  Desejo ter uma fatura descrevendo meus gastos
 
-  Scenario: Efetuando uma compra
-    Given que tenho um cartão de crédito
-    When fizer uma compra de R$ 50
-    Then o total da minha fatura deve ser de R$ 50
+  Cenário: Efetuando uma compra
+    Dado que tenho um cartão de crédito
+    Quando fizer uma compra de R$ 50
+    Então o total da minha fatura deve ser de R$ 50
