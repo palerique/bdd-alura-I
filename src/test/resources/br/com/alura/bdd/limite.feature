@@ -23,6 +23,3 @@ Funcionalidade: Limite
     Dado que tenho um cartão com limite de R$ 0
     Quando gastar R$ 0 com esse cartão
     Então o meu limite disponível deve ser de R$ 0
-
-    # solucionado com \d+
-
